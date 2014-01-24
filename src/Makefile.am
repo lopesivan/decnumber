@@ -1,7 +1,7 @@
 lib_LTLIBRARIES = libdecnumber.la
-libdecnumber_la_SOURCES = decBasic.c \
-			  decCommon.c \
-			  decContext.c \
+# Do not include decCommon.c or decBasic.c.
+# These get included into other files using the preprocessor.
+libdecnumber_la_SOURCES = decContext.c \
 			  decDouble.c \
 			  decimal128.c \
 			  decimal32.c \
