@@ -29,4 +29,10 @@ autoreconf --install
 
 in the root directory, and then you can ./configure as usual.
 
+The latest release on Github should have a fully autotooled tarball.
+Then you just untar it and do "./configure && make && make install"
+as you would normally expect.  From the decnumber Github home click
+on "Releases".  You should then get a page with a big green button
+for the autotooled tarball.
+
 This packaging is licensed under the BSD license; see the LICENSE file.
