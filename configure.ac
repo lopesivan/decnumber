@@ -1,4 +1,4 @@
-AC_INIT([libdecnumber], [368-2], [omari@smileystation.com])
+AC_INIT([libdecnumber], [368-3], [omari@smileystation.com])
 AC_CONFIG_MACRO_DIR([m4])
 AM_INIT_AUTOMAKE([-Wall foreign])
 LT_INIT
