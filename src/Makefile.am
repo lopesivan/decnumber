@@ -2,7 +2,7 @@ lib_LTLIBRARIES = libdecnumber.la
 # Do not include decCommon.c or decBasic.c.
 # These get included into other files using the preprocessor.
 
-EXTRA_DIST = decCommon.c decBasic.c
+EXTRA_DIST = decCommon.c decBasic.c ICU-license.html
 
 libdecnumber_la_SOURCES = decContext.c \
 			  decDouble.c \
